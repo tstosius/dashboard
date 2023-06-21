@@ -1,0 +1,17 @@
+.dashboard-wrapper{
+
+  .dashboard-tile-wrapper{
+    .dashboard-tile {
+      width: 80%;
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    .dashboard-tile-status-ok {
+      color: lightgreen;
+    }
+    .dashboard-tile-status-nok {
+      color: lightcoral;
+    }
+  }
+}

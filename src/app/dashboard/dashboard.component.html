@@ -1,0 +1,12 @@
+<div class="dashboard-wrapper">
+  <h2>Tagschicht Dashboard</h2>
+
+  <div class="dashboard-tile-wrapper" [ngStyle]="getStyles()">
+    <div *ngFor="let tile of tiles; index as i" class="dashboard-tile">
+      <h4>{{tile.tileName}}</h4>
+      <span class="dashboard-tile-status-ok">{{tile.statusOK}}</span> / <span class="dashboard-tile-status-nok">{{tile.statusNOK}}</span>
+    </div>
+  </div>
+
+
+</div>
